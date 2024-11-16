@@ -26,7 +26,7 @@
 
 1. Create a new file in this folder with echo command
 
-    echo "new_file" >> file_name.txt
+    echo "new_file" >> new_file.txt
 
 2. Add this file to the stagging area
 
@@ -36,4 +36,14 @@
 
     git commit -m "New commit"
 
-4. 
+4. Make the change to this file
+
+    echo "make changes" >> new_file.txt
+
+5. add the file to stagging area
+
+    git add new_file
+
+6. Make commit to this file
+
+    git commit -m "Updated text"
