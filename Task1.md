@@ -47,3 +47,14 @@
 6. Make commit to this file
 
     git commit -m "Updated text"
+
+
+#### Task 4: Check Status and Log
+
+1. To check the status of current repository using status command
+
+    git status 
+
+2. view the commit history
+
+    git log
